@@ -4,7 +4,7 @@
 
 This repo is a skeleton/template repo for tracking dotfiles.  It
 contains a utility [bootstrap]
-(https://github.com/jeffaco/dotfiles/blob/master/nix/bootstrap.sh) to
+(https://github.com/dbotterill/dotfiles/blob/master/nix/bootstrap.sh) to
 help with managing and updating your dotfiles.
 
 ## This repo has several directories to support multiple platforms
@@ -20,7 +20,7 @@ First, fork this repo into a directory of your choice.
 
 Then, add your dotfiles:
 
-    $ git clone git@github.com:jeffaco/dotfiles.git
+    $ git clone git@github.com:dbotterill/dotfiles.git
     $ cd dotfiles
     $  # edit files
     $  # edit files
@@ -31,7 +31,7 @@ Then, add your dotfiles:
 Finally, to install your dotfiles onto a new system:
 
     $ cd $HOME
-    $ git clone git@github.com:jeffaco/dotfiles.git
+    $ git clone git@github.com:dbotterill/dotfiles.git
     $ dotfiles/nix/bootstrap.sh
 
 ## Compatibility
